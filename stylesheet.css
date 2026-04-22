@@ -72,7 +72,7 @@ a {
   transform: translateY(0);
 }
 
-/* セクション区切り 
+/* セクション区切り */
 .section-divider {
   width: 100%;
   background: #fff;
@@ -95,8 +95,6 @@ a {
     transparent 100%
   );
 }
-
-*/
 
 /* =================
   loading
