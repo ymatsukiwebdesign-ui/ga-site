@@ -721,6 +721,7 @@ a {
   transform: translateX(6px);
 }
 
+
 /* =================
   SERVICE
 ================= */
@@ -730,7 +731,6 @@ a {
   position: relative;
   overflow: hidden;
 }
-
 
 .service-wrapper {
   max-width: 1400px;
@@ -1398,11 +1398,11 @@ a {
 }
 
 .recruit::before{
-content:"";
-position:absolute;
-overflow: hidden;
-background:rgba(0,0,0,0.45);
-z-index: 0;
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.45);
+  z-index:0;
 }
 
 .recruit-inner{
